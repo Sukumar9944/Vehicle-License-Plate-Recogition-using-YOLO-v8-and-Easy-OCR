@@ -35,7 +35,7 @@ with st.spinner(progress_text):
 
             model.predict(source = r'temp_images\temp.jpg', save = True, conf = 0.5, classes = 0, save_crop = True)
 
-            bbox_image = r'G:\GUVI_DATA_SCIENCE\Project\License_Plate_Recognition\runs\detect\predict\temp.jpg'
+            bbox_image = r'G:\GUVI_DATA_SCIENCE\Project\Vehicle-License-Plate-Recogition-using-YOLO-v8-and-Easy-OCR\runs\detect\predict\temp.jpg'
 
             crop_license_image = r'G:\GUVI_DATA_SCIENCE\Project\Vehicle-License-Plate-Recogition-using-YOLO-v8-and-Easy-OCR\runs\detect\predict\crops\license-plate\temp.jpg'
             
